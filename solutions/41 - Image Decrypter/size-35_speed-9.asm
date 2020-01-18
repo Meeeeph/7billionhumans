@@ -1,9 +1,9 @@
--- 7 Billion Humans (2053) --
+-- 7 Billion Humans (2231) --
 -- 41: Image Decrypter --
 
--- Author: soerface
+-- Author: Meeeeph
 -- Size: 35
--- Speed: 9
+-- Speed: 8
 
 mem1 = set w
 pickup mem1
@@ -56,6 +56,7 @@ step w
 a:
 step w
 drop
-j:
-step n
-jump j
+mem2 = nearest hole
+step mem2
+
+
